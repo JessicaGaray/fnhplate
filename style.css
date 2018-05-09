@@ -1,0 +1,72 @@
+html,body{
+  height: 100%;
+  margin: 0;
+  padding: 1em;
+  background-color:white;
+  font-family: "Raleway",sans-serif;
+}
+
+.folded{
+  padding-top: 3em;
+  filter: brightness(50%);
+  display:block;
+  margin: 0 auto;
+}
+.centeredtext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    border: 5px white solid;
+    font-family: "Do Hyeon",monospace;
+    padding:10px;
+    font-size: 3em;
+}
+
+.logo{
+  margin:0 auto;
+  margin-right: 1em;
+  margin-top: 1em;
+}
+
+.para{
+  padding-top: 3em;
+}
+
+.text{
+  float: left;
+}
+
+p{
+  text-align: justify;
+  text-indent: 2em;
+}
+nav{
+  background-color: #000;
+}
+
+
+
+li{
+  color:black;
+}
+
+.pan{
+  border:5px pink solid;
+  background-color: #FF69B4;
+  color:black;
+  padding: 2em;
+}
+
+.pan .li{
+  color:black;
+}
+/*.btn-block{
+  width: 79%;
+  margin:0 auto;
+}*/
+.space{
+  margin:2em;
+  padding: 2em;
+}
